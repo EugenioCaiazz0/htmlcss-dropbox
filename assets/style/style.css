@@ -93,6 +93,14 @@ input [type=”radio”]{
     background-color: #0262ff ;
 }
 
+ul{
+    list-style: none;
+}
+
+.column{
+    flex-direction: column;
+}
+
 #jumbotron{
     height: 740px;
     background-color: #b4d1e7;
@@ -122,6 +130,14 @@ button.fakelink{
     background-color: #0061ff;
 }
 
+button.trial{
+    background-color: #0061ff;
+    width: 240px;
+    height: 45px;
+    margin: auto;
+    color: white;
+}
+
 .content-box .fakelink{
     margin: auto;
     font-size: 16px;
@@ -143,6 +159,8 @@ button.fakelink{
     justify-content: flex-start;
 }
 
-.column{
-    flex-direction: column;
+.business-plan{
+    height: 975px;
+    width: 300px;
 }
+
