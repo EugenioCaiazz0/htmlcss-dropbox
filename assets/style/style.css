@@ -8,16 +8,22 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/*
 header{
     display: flex;
     position: fixed;
     top: 0;
-    background-color: red;
     align-items: center;
-    font-size: small;
+    justify-content: space-between;
+    font-size: smaller;
     height: 80px;
     max-height: 80px;
+    width: 100%;
+    background-color: white;
+}
+
+main{
+    padding-top: 80px;
+    overflow: auto;
 }
 
 header ul {
@@ -30,6 +36,7 @@ header li{
     padding-right: 10px;
     padding-left: 10px;
     text-align: center;
+    align-self: center;
 }
 
 .logo{
@@ -47,19 +54,17 @@ header li{
 button.inizia{
     background-color: #015bf0;
     color: white;
+    border-style: none;
+    width: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   vertical-align: middle;
 }
 
 header.container{
     height: 80px;
     justify-content: space-between;
 }
-
-.jumbotron{
-    max-width: 1200px;
-    max-height: 740px;
-}
-
-*/
 
 
 .container{
